@@ -1,2 +1,3 @@
 # vehicles_env
 vehicles_env
+A traves del desarrollo del proyecto podemos visualizar el numero de carros que tienen cierta cantidad de kilometros de recorrido y la comparacion del precio de los vehiculos con el numero de kilometros que tiene cada uno, para de esta forma que el cliente pueda analizar y mirar en el mercado que numero de kilometros se espera al comprar un vehiculo con su presupuesto determinado, podra hacer una seleccion mas precisa y que el carro que compre se ajuste al analisis de los datos.
