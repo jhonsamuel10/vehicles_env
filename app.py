@@ -11,9 +11,9 @@ if hist_button:
     st.plotly_chart(fig, use_container_width=True)
 
 car_data = pd.read_csv('vehicles_us.csv')
-hist_button = st.button('Construir dispersion')
-if hist_button:
+Dispe_button = st.button('Construir dispersion')
+if Dispe_button:
     st.write(
         'Creación de dispersion para el conjunto de datos de anuncios de venta de coches')
-    fig = px.histogram(x="odometer", y="price")
-    st.plotly_chart(fig, use_container_width=True)
+    figu = px.scatter(car_data, x="odometer", y="price")
+    st.plotly_chart(figu, use_container_width=True)
